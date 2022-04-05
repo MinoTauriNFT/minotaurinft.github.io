@@ -16,7 +16,7 @@ body {
 }
 
 .mnt-description {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.5;
 }
 
@@ -25,7 +25,6 @@ body {
 }
 
 .mnt-subtitle {
-    font-size: 1.6rem;
     line-height: 1.5;
 }
 
@@ -1667,9 +1666,9 @@ a {
 .mnt-team .card-wrap img {
     position: absolute;
     bottom: -35px;
-    right: -35px;
-    width: 150px;
-    height: 150px;
+    right: -20px;
+    width: 127px;
+    height: 127px;
 }
 
 .mnt-team .card-wrap .image-wrap img {
@@ -1679,12 +1678,6 @@ a {
     margin: auto;
     margin-right: 1rem;
     border-radius: 50%;
-}
-
-@media (max-width: 767px) {
-    .mnt-team .card-wrap {
-        padding: 2rem 1rem;
-    }
 }
 
 .mnt-team .mnt-iconfont {
@@ -1855,4 +1848,8 @@ a {
     color: #FFD700 !important;
     margin: 1px;
     padding: 2px;
+}
+
+.disclaimer {
+    visibility: hidden !important;
 }
