@@ -1048,10 +1048,10 @@
 
     function changeColorLink() {
         if (i == 0) {
-            $(".change-color-link").toggleClass("change-color-link change-color-link-reverse");
+            $(".change-color-link").addClass("change-color-link-reverse").removeClass("change-color-link");
             i = 1;
         } else {
-            $(".change-color-link-reverse").toggleClass("change-color-link-reverse change-color-link");
+            $(".change-color-link-reverse").addClass("change-color-link").removeClass("change-color-link-reverse");
             i = 0;
         }
     };
@@ -1082,13 +1082,5 @@
             draggable: false,
             rtl: true,
         });
-        mintedNFTs();
     });
-
-    function mintedNFTs() {
-        fetch("https://stacks-node-api.mainnet.stacks.co/extended/v1/tokens/nft/mints?asset_identifier=SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.hback-whales-nft::hback-whales-nft")
-            .then(response => response.json())
-            .then(data => $('.mnt-minted .minted-number').replaceWith(data.total));
-    }
-    setInterval(mintedNFTs, 40000);
 }(jQuery));
