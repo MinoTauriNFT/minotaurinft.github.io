@@ -1498,7 +1498,7 @@ a {
     padding: 0 1rem;
 }
 
-.mnt-faq .collapsed span {
+.mnt-faq .collapsed span :not(#faq-accordion-1) {
     transform: rotate(0deg);
 }
 
