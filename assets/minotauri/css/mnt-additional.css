@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Joystix', sans-serif;
+    background-color: #191919;
 }
 
 .mnt-title {
@@ -16,7 +17,6 @@ body {
 }
 
 .mnt-description {
-    font-size: 0.8rem;
     line-height: 1.5;
 }
 
@@ -1238,6 +1238,8 @@ a {
     }
     .mnt-navbar .navbar ul.navbar-nav li {
         margin: auto;
+        padding: 10px 0px 10px 0px;
+        font-size: inherit;
     }
     .mnt-navbar .navbar .dropdown-menu .dropdown-item {
         padding: 0.25rem 1.5rem !important;
@@ -1540,7 +1542,7 @@ a {
 }
 
 .mnt-faq .panel-text {
-    color: #777777;
+    color: #646464;
 }
 
 .mnt-faq H4 {
@@ -1639,7 +1641,7 @@ a {
 }
 
 .mnt-team {
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     padding-bottom: 5rem;
     background: #191919;
 }
@@ -1727,6 +1729,7 @@ footer {
     padding-bottom: 0rem;
     background-color: #FFD700;
     overflow: hidden;
+    margin-top: auto;
 }
 
 .mnt-footer .social-row {
@@ -1740,7 +1743,6 @@ footer {
 }
 
 .mnt-footer .border-col {
-    border-right: 1px solid #191919;
     height: 100%;
 }
 
@@ -1869,4 +1871,86 @@ footer {
 .inactive-link {
     pointer-events: none;
     cursor: default;
+}
+
+.mnt-footer-copy {
+    font-size: 0.7rem;
+}
+
+.mnt-404 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #191919;
+    color: #FFD700 !important;
+}
+
+.mnt-404 .mnt-error {
+    font-size: 10rem;
+}
+
+.mnt-roadmap {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #191919;
+}
+
+.mnt-roadmap .team-card {
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+}
+
+.mnt-roadmap .team-card:hover {
+    transform: translateY(-10px);
+}
+
+.mnt-roadmap .card-wrap {
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    padding: 0.8rem;
+    margin: 0rem 0.1rem 0.1rem 0rem;
+}
+
+@media (max-width: 991px) {
+    .mnt-roadmap .card-wrap {
+        margin-bottom: 2rem;
+    }
+    .mnt-roadmap img {
+        display: none;
+    }
+}
+
+.mnt-roadmap .mnt-iconfont {
+    color: #14191e;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.mnt-roadmap .mnt-section-subtitle {
+    color: #777777;
+}
+
+.mnt-roadmap .card-text,
+.mnt-roadmap .mnt-section-btn,
+.mnt-roadmap .social-row {
+    color: #777777;
+}
+
+.mnt-roadmap .mnt-section-title {
+    color: #FFD700;
+    text-shadow: 1px 1px 0px #191919;
+}
+
+.mnt-roadmap .mnt-section-title.mnt-p-title {
+    font-size: 1.4rem;
+}
+
+.mnt-roadmap .mnt-init-card {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.mnt-roadmap .mnt-role p {
+    text-align: justify;
+    line-height: 1.2;
 }
