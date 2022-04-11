@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     color: #232323;
     position: relative;
+    user-select: none;
 }
 
 section,
@@ -992,4 +993,14 @@ blockquote {
     padding: 0;
     top: 0;
     left: -2400px;
+}
+
+::-moz-selection {
+    color: white;
+    background: #FFD700;
+}
+
+::selection {
+    color: white;
+    background: #FFD700;
 }
