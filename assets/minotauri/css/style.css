@@ -118,28 +118,6 @@ section .mnt-background-video-preview {
     z-index: 20;
 }
 
-
-/*! Base colors */
-
-.mnt-white {
-    color: #ffffff;
-}
-
-.mnt-black {
-    color: #111111;
-}
-
-.mnt-bg-white {
-    background-color: #ffffff;
-}
-
-.mnt-bg-black {
-    background-color: #000000;
-}
-
-
-/*! Text-aligns */
-
 .align-left {
     text-align: left;
 }
@@ -286,64 +264,9 @@ iframe {
     font-size: 0;
 }
 
-.btn {
-    font-weight: 600;
-    border-width: 1px;
-    font-style: normal;
-    margin: 0.6rem 0.6rem;
-    white-space: normal;
-    transition: all 0.2s ease-in-out;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    word-break: break-word;
-}
-
-.btn-sm {
-    font-weight: 600;
-    letter-spacing: 0px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-md {
-    font-weight: 600;
-    letter-spacing: 0px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-lg {
-    font-weight: 600;
-    letter-spacing: 0px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-form {
-    margin: 0;
-}
-
-.btn-form:hover {
-    cursor: pointer;
-}
-
 nav .mnt-section-btn {
     margin-left: 0rem;
     margin-right: 0rem;
-}
-
-
-/*! Btn icon margin */
-
-.btn .mnt-iconfont,
-.btn.btn-sm .mnt-iconfont {
-    order: 1;
-    cursor: pointer;
-    margin-left: 0.5rem;
-    vertical-align: sub;
-}
-
-.btn.btn-md .mnt-iconfont,
-.btn.btn-md .mnt-iconfont {
-    margin-left: 0.8rem;
 }
 
 .mnt-regular {
@@ -556,12 +479,6 @@ nav .mnt-section-btn {
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out;
     }
-}
-
-.bg-gradient {
-    background-size: 200% 200%;
-    animation: gradient-animation 5s infinite alternate;
-    -webkit-animation: gradient-animation 5s infinite alternate;
 }
 
 .menu .navbar-brand {
@@ -865,27 +782,12 @@ form .mnt-section-btn {
     padding-right: 0.6rem;
 }
 
-form .btn {
-    display: flex;
-    padding: 0.6rem 1.2rem;
-    margin: 0;
-}
-
-form .form-check-input {
-    margin-top: 0.5;
-}
-
 textarea.form-control {
     line-height: 1.5rem !important;
 }
 
 .form-group {
     margin-bottom: 1.2rem;
-}
-
-.form-control,
-form .btn {
-    min-height: 48px;
 }
 
 .gdpr-block label span.textGDPR input[name=gdpr] {
