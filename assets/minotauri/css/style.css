@@ -130,13 +130,6 @@ section .mnt-background-video-preview {
     text-align: right;
 }
 
-@media (max-width: 767px) {
-    .align-right,
-    .align-left {
-        text-align: center;
-    }
-}
-
 
 /*! Font-weight  */
 
