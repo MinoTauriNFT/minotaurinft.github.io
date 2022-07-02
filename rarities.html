@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/minotauri/images/logo-pxl.png" alt="" type="image/x-icon">
+    <meta name="description" content="MinoTauri Roadmap">
+
+    <title>Roadmap</title>
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/jquery/css/style.css">
+    <link rel="stylesheet" href="assets/jquery/css/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/jquery/css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/jquery/css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/minotauri/css/style.css">
+    <link rel="stylesheet" href="assets/jquery/css/recaptcha.css">
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/minotauri/css/mnt-additional.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9TPKJPHE18"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9TPKJPHE18');
+    </script>
+</head>
+
+<body>
+    <section class="menu mnt-navbar">
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="/">
+                            <img src="assets/minotauri/images/logo-pxl.png" alt="MinoTauri" style="height: 3rem;">
+                        </a>
+                    </span>
+                    <span class="navbar-caption-wrap">MinoTauri</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="/roadmap">Roadmap</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link active" href="/rarities">Rarities</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="https://spaghettipunk.com/staking" target="_blank">Staking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mnt-section-title text-center">
+                        <p class="mnt-follow">Join us</p>
+                    </div>
+                    <div class="icons-menu">
+                        <a class="iconfont-wrapper" href="https://twitter.com/MinoTauriNFT" target="_blank">
+                            <span class="p-2 mnt-iconfont socicon-twitter socicon"></span>
+                        </a>
+                        <a class="iconfont-wrapper" href="https://discord.gg/minotauri" target="_blank">
+                            <span class="p-2 mnt-iconfont socicon-discord socicon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="mnt-rarities">
+        <div class="container">
+            <div class="filter-buttons">
+                <ul id="filter-btns">
+                    <li class="active" data-target="staking">Staking Multipliers</li>
+                    <li data-target="backgrounds">Backgrounds</li>
+                    <li data-target="clothing">Clothing</li>
+                    <li data-target="eyes">Eyes</li>
+                    <li data-target="glasses">Glasses</li>
+                    <li data-target="hat">Hat</li>
+                    <li data-target="horns">Horns</li>
+                    <li data-target="mouth">Mouth</li>
+                    <li data-target="nose">Nose</li>
+                    <li data-target="skin">Skin</li>
+                    <li data-target="weapon">Weapon</li>
+                    <li data-target="special">1/1</li>
+                </ul>
+            </div>
+            <div class="legend">
+                <ul>
+                    <li class="common">Common</li>
+                    <li class="rare">Rare</li>
+                    <li class="legendary">Legendary</li>
+                </ul>
+            </div>
+            <div class="row justify-content-center">
+                <div class="mnt-init-card">
+                    <div class="row card-wrap mnt-rarity-items">
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Background/Gray.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    7.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Background/Red.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    7.32%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Background/Blue.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    7.20%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Background/Pink.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    7.12%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Background/Purple.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    6.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Background/Silver.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Background/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.12%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Background/Bronze.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3.92%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Background/Multicolor.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3.92%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/Galaxy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/Dollars.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/Hell.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;"
+                            data-id="backgrounds">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/BlueFires.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.48%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/WhiteTuxedo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    6.40%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/HawaiiShirt.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    6.36%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/Tuxedo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    5.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/SweatShirtMTLogoPurple.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/MinoTauriShirt.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.80%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/BlackShirtWEyeNFTSpy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/SweatShirtMTLogoBlack.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/OpenLabCoat.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.36%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Clothing/SweatShirtMTLogoBlue.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.20%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/ArmorShoulders.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.12%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/BitcoinNecklace.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.92%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/GoldChains.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.80%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/SilverChains.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.68%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/SilverChainsOnNeck.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.60%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Clothing/GoldChainsOnNeck.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/RainbowShirt.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.36%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Lei.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Kimono.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.08%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/ShamanNecklaceBones.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.08%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Chiton.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/WarVestGamma.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.80%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="clothing">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/AstronautByzantionLogo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Eyes/BlueEye.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    17.12%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Eyes/GreenEye.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    9.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Eyes/RedEye.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    8.60%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Eyes/GoldEyes.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.84%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Eyes/Bronze.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Eyes/StonedEyes.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="eyes">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Eyes/RobotEye.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="glasses">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Glasses/Glasses.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="glasses">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Glasses/3DGlasses.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.84%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="glasses">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Glasses/Monocle.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.78%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="glasses">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Glasses/BlueLaser.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.60%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="glasses">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Glasses/RedLaser.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Hat/LaurelWreath.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    8.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Hat/SilverEarring.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    6.32%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Hat/LaurelWreathGold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    6.20%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Hat/GoldEarring.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3.48%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Hat/RedBandana.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Hat/Halo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/StackParrots.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.40%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/Whale.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/TopHat.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.08%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="hat">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/Crown.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.88%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Horns/Normal.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    28.12%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Horns/BlackHornWGoldEdge.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    15.60%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Horns/RedHorn.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    9.48%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Horns/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Horns/Diamond.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Horns/BlackHornLava.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.84%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="horns">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Galaxy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/SeriousNormal.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    13.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/Happy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    10.32%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/Smokingcigarette.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    5.36%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/NormalFang.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.92%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/Smokingsmokingpipe.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.72%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Mouth/GoldFang.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.40%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/EatingMeat.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.84%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/EatingPizza.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.20%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/BubbleGum.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.08%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/Pacifier.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/EatingIceCream.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.96%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Mouth/TongueOut.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.72%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/Drool.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.40%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/Fire.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.20%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="mouth">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.96%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="nose">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Nose/SeptumWChain.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    15.44%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="nose">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Nose/Silver.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    14.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="nose">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Nose/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    4.16%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="nose">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Nose/Bitcoin.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.32%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Skin/NormalBrown.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    12.76%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Skin/Gray.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    11.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Skin/Black.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    11.24%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Skin/White.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    10.52%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Skin/Red.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    5.68%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Skin/Rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.80%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Skin/Zebra.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    2.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="skin">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/Galaxy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Weapon/Axe2.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    5.64%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity common">
+                                <img src="assets/minotauri/images/Weapon/Axe1.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    5.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Weapon/Katana.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    3.68%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Weapon/GoldAxe.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.92%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Weapon/AK47.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.72%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity rare">
+                                <img src="assets/minotauri/images/Weapon/AxeWStacksArt.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.60%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/LaserStarsWar.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.56%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/Lightning.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    1.28%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="weapon">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/Flamethrower.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.52%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/489.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/856.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/2194.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/2367.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/578.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/691.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/667.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/289.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/596.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-3" style="display: none;" data-id="special">
+                            <div class="mnt-rarity legendary">
+                                <img src="https://byzantion.mypinata.cloud/ipfs/QmPMH4msdsJ8fH7DRkehXvAVF33H6FfLDBhPHmnMKPoVWK/1069.gif"
+                                    alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    0.04%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/specials.gif" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +150%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Glasses/RedLaser.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +100%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/Crown.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +100%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Glasses/BlueLaser.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Nose/Bitcoin.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/AstronautByzantionLogo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Galaxy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/TopHat.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Eyes/RobotEye.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +50%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/Galaxy.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/Flamethrower.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/WarVestGamma.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/BlueFires.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/Whale.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +25%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/BlackHornLava.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/Lightning.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/StackParrots.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/Hell.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Chiton.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +15%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Background/Dollars.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/Zebra.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Kimono.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/LaserStarsWar.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/Halo.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Eyes/StonedEyes.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Glasses/Monocle.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/TongueOut.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Nose/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Diamond.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +10%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Skin/Rainbow.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/Gold.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/Lei.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/AxeWStacksArt.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Hat/RedBandana.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/Fire.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +5%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Clothing/ShamanNecklaceBones.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +3%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Weapon/GoldAxe.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +3%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Horns/RedHorn.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +3%
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rarity-item col-sm-6 col-md-4 col-lg-2" data-id="staking">
+                            <div class="mnt-rarity legendary">
+                                <img src="assets/minotauri/images/Mouth/EatingMeat.png" alt="">
+                                <p class="mnt-fonts-style panel-text mnt-description">
+                                    +3%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="mnt-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 padding-col padding">
+                    <div class="social-row">
+                        <div class="soc-item">
+                            <a href="https://twitter.com/MinoTauriNFT" target="_blank">
+                                <span class="mnt-iconfont socicon socicon-twitter"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://discord.gg/minotauri" target="_blank">
+                                <span class="mnt-iconfont socicon socicon-discord"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <h1 class="mnt-footer-copy text-center">
+                        Copyright 2022 © All rights Reserved. <br> All trademarks referenced on this site are property
+                        of their respective owners.
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/jquery/js/jquery.min.js"></script>
+    <script src="assets/popper/popper.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery/js/smooth-scroll.js"></script>
+    <script src="assets/jquery/js/nav-dropdown.js"></script>
+    <script src="assets/jquery/js/navbar-dropdown.js"></script>
+    <script src="assets/jquery/js/jquery.touch-swipe.min.js"></script>
+    <script src="assets/minotauri/js/mnt-switch-arrow.js"></script>
+    <script src="assets/jquery/js/jquery.formstyler.js"></script>
+    <script src="assets/jquery/js/jquery.formstyler.min.js"></script>
+    <script src="assets/jquery/js/jquery.datetimepicker.full.js"></script>
+    <script src="assets/minotauri/js/script.js"></script>
+    <script src="assets/jquery/js/formoid.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/minotauri/js/mnt-filtering.js"></script>
+</body>
+
+</html>
