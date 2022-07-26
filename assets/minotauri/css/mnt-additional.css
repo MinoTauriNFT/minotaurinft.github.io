@@ -1198,6 +1198,7 @@ footer {
     list-style: none;
     text-align: center;
     margin: 0 !important;
+    padding: 0 !important;
 }
 
 .mnt-rarities .filter-buttons ul li {
